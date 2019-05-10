@@ -1,0 +1,41 @@
+.nav-item a {
+    color: white;
+}
+
+body {
+    background-color: rgb(236, 240, 241);
+    font-family: 'Montserrat', sans-serif;
+  }
+
+/* styling for the casino venue cards */
+.card {
+    margin: 20px;
+    height: 200px;
+    padding: 0px;
+    padding-top: 75px;
+    background: #bfbfbf;
+    display: inline-block;
+    text-align: center;
+    transition-property: transform;
+    -webkit-transition-property: transform;
+    transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+    border: #fbf8fd 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+/* hover feature for the casino venue cards */
+.card:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+}
+
+/* background images for the Portfolio by card id */
+#las-vegas {
+    background-image: url(./Assets/Images/app.jpg);
+    background-size: cover;
+}
+
