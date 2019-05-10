@@ -7,7 +7,7 @@ body {
     font-family: 'Montserrat', sans-serif;
   }
 
-/* styling for the casino venue cards */
+/* styling for the Portfolio Project cards */
 .card {
     margin: 20px;
     height: 200px;
@@ -24,7 +24,7 @@ body {
     border-radius: 5px;
     cursor: pointer;
     font-size: 20px;
-    color: rgb(255, 255, 255);
+    color: black;
 }
 
 /* hover feature for the casino venue cards */
@@ -33,7 +33,22 @@ body {
     -webkit-transform: scale(1.1);
 }
 
-/* background images for the Portfolio by card id */
+/* Set properties to the project images and text by class */
+
+.project-background {
+    height: auto;
+    background-color: #ffffff;
+    opacity: 0.7;
+}
+
+.project-text p {
+    font-weight: bold;
+    color: black;
+}
+
+
+
+/* background images for the Portfolio Projects by card id */
 #las-vegas {
     background-image: url(./Assets/Images/app.jpg);
     background-size: cover;
