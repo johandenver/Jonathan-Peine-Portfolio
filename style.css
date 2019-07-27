@@ -27,7 +27,7 @@ body {
     color: black;
 }
 
-/* hover feature for the casino venue cards */
+/* hover feature for the Portfolio Project cards */
 .card:hover {
     transform: scale(1.1);
     -webkit-transform: scale(1.1);
@@ -36,7 +36,6 @@ body {
 /* Set properties to the project images and text by class */
 
 .project-background {
-    height: auto;
     background-color: #ffffff;
     opacity: 0.7;
 }
@@ -51,6 +50,11 @@ body {
 /* background images for the Portfolio Projects by card id */
 #las-vegas {
     background-image: url(./Assets/Images/app.jpg);
+    background-size: cover;
+}
+
+#tranquil {
+    background-image: url(./Assets/Images/Tranquil.jpg);
     background-size: cover;
 }
 
